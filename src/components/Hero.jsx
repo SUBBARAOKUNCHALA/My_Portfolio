@@ -31,7 +31,7 @@ export default function Hero() {
         <div className="row align-items-center g-4">
 
           {/* ================= LEFT IMAGE ON DIAGONAL ================= */}
-          <div className="col-12 col-md-6 col-lg-5 d-flex justify-content-center">
+          <div className="col-12 col-md-6 col-lg-5 col-xl-5 d-flex justify-content-center">
             <motion.div
               initial={{ opacity: 0, y: 60 }}
               animate={{ opacity: 1, y: 0 }}
@@ -63,7 +63,7 @@ export default function Hero() {
 
 
           {/* ================= RIGHT CONTENT CARD ================= */}
-          <div className="col-12 col-md-6 col-lg-7">
+          <div className="col-12 col-md-6 col-lg-7 col-xl-7">
             {/* ===== NAV BUTTONS ===== */}
                 <HeroNav />
 
