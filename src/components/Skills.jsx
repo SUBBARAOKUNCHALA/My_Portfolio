@@ -86,8 +86,8 @@ export default function Skills() {
           <motion.div
             key={category.title}
             initial={{ opacity: 0, y: 60 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.15 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.1, ease: "easeOut" }}
             style={{
               background: "#020617",
               borderRadius: "22px",
